@@ -80,7 +80,7 @@ img {
     background-color: grey;
 }
 a {
-    color: black;
+    color: white;
 }
 
 a.dropdown-menu {
@@ -88,7 +88,7 @@ a.dropdown-menu {
 }
 
 a:hover, a:visited {
-    color: black;
+    color: white;
 }
 
 a.article-title:hover, a:visited {
