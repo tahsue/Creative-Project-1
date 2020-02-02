@@ -1,0 +1,124 @@
+
+.main-title {
+
+    height: 500px;
+    background-color: #D9D7CC;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 25%;
+    color: black;
+    letter-spacing: 10px;
+}
+.title-text {
+  position: absolute;
+  width: 50%;
+  top: 35%;
+  text-align: center;
+}
+.test-block-1 {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/dog-back.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.test-block-2 {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/cat-back-4.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.test-block-3 {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/football.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.article-title {
+    color: white;
+    margin-left: auto;
+    padding-top: 200px;
+    width: 100%;
+    text-align: center;
+}
+.page-title-text {
+    font-size: 80px;
+    padding-top: 100px;
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.article {
+    font-size: 150%;
+    padding: 100px;
+    line-height: 2.0;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    color: black;
+}
+.navbar-nav {
+    color: black;
+}
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+    color: black;
+    background-color: #3E3540;
+}
+a {
+    color: black;
+}
+
+a.dropdown-menu {
+    color: black;
+}
+
+a:hover, a:visited {
+    color: black;
+}
+
+a.article-title:hover, a:visited {
+    color: white;
+}
+.img-full-width {
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+footer {
+  background-color: #3E3540;
+  width: 100%;
+  min-height: 200px;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+
+@media (max-width: 767px) {
+    .article {
+        font-size: 1.3em;
+        padding: 50px;
+    }
+    .page-title-text {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 480px) {
+
+}
